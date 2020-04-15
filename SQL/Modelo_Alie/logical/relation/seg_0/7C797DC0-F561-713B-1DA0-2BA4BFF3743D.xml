@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Chat User FK" directorySegmentName="seg_0" id="7C797DC0-F561-713B-1DA0-2BA4BFF3743D">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:30:38 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>A946B1F3-DCE9-62DD-54AF-0F030741DCB8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>399B4A83-6AEF-2E56-0FE7-A70BDC5C7862</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DEF948DD-A3D6-EF05-B41E-325BE899AB2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

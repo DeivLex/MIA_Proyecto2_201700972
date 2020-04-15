@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAFB67C4-1E28-9F43-5ECC-FDF4AB762BB4" name="Rol">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>17A494A8-11E7-EB1C-11B6-733665EF3F05</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id rol" id="EB251A05-FDDE-39D3-AECD-5C02732923B5">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>8627ED63-E367-08BE-2B6F-762F1381078D</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="181D51AF-4D2C-8D0B-10EA-30F838047502">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>1097BE9B-12F1-844C-8A96-105D3AC4A730</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F83B862-2C5F-9B59-8B9D-298640E6DD4E" name="Rol PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>4BDF2D20-4516-3311-80F7-B866A0AF11B2</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB251A05-FDDE-39D3-AECD-5C02732923B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

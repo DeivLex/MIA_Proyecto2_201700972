@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29B709E7-39ED-7CFA-C7C2-575E10778CDC" name="Carrito_detalle">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:33:13 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_detalle" id="A466B9D6-6E1B-E6A0-7753-F8AE8D8B3279">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:33:13 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="781BC043-99A4-8CB5-2233-44EFBB0CA764">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:33:13 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_producto" id="D4ACD407-5C2B-DDF0-296A-7D156AC97CF2">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>DBB4E180-EF1A-2CB7-DFC4-3AF25FBCFFA7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="004ECBA0-CC4B-443D-50A7-6F7C7369FD24" referredColumn="374495B4-B03D-F2FD-059F-2E402C4B41F0"/>
+</associations>
+</Column>
+<Column name="Id_carrito" id="829BE8CE-1891-604F-F806-7BAE9BE463E4">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>90174D18-1994-9506-DF8A-9F4B1FC793CD</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FAF1744-DAB1-020B-CAC2-F562C7155DAA" referredColumn="243FB5AC-9199-F532-4AB7-D396565A8FBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCA32A08-A507-0D0B-25DE-E0BDE95BB12D" name="Carrito_detalle_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:33:13 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A466B9D6-6E1B-E6A0-7753-F8AE8D8B3279"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACEED894-BEAA-2B35-5931-97D9C4A1CE6F" name="Carrito_detalle_Producto_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>5900B5C0-44E3-577C-117B-2EDC20B5025A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4ACD407-5C2B-DDF0-296A-7D156AC97CF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B408E925-9F26-6426-BB09-DB1B025FE994" name="Carrito_detalle_Carrito_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>5F107EEF-FDF5-7F63-B84D-D40A96106521</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="829BE8CE-1891-604F-F806-7BAE9BE463E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

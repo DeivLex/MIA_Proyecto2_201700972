@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEF948DD-A3D6-EF05-B41E-325BE899AB2A" name="Chat">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>514E547A-33AE-7A58-D078-BEF31770DBFF</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id chat" id="AE5CC61E-358A-955C-A5F8-AC17C8D7A60F">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>D469B23D-F869-F2D6-3065-2ADE6728281A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Emisor" id="C47D1532-80A6-33D7-6BC3-1D015D5C15DC">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>DBF70B66-503D-32C7-7BDE-1580B199935F</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Receptor" id="98DCB273-A894-2468-6842-51F49984BE41">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>70C23A72-A714-98F6-18DA-6322FF7FB145</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="455A9582-F458-C2AD-9FF8-DC274C859676">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>A4BC89C9-8090-FD85-906E-F3A14424FAF5</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contenido" id="1DB50594-9EED-E10D-2151-A2717A261332">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>DDCC28A6-051E-5E15-3416-0874D8108E11</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id solicitud" id="662DDAC2-D49C-870C-E7D1-E39B808CD7F7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:28:00 UTC</createdTime>
+<generatorID>58FA14F5-C318-8206-BDAC-C7D7019735BC</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>1277D881-7C11-5C24-9C02-1DEC8DDAA02A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id user" id="FA27BA1D-3B28-841F-D58E-381ECE0653BB">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:30:38 UTC</createdTime>
+<generatorID>7C797DC0-F561-713B-1DA0-2BA4BFF3743D</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>0B1CC954-EB80-2F73-90F2-BD8A6BB37A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6977E11-477B-6640-2C7F-027CF702B028" name="Chat_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>D15A7601-6F78-5155-1F4D-07161119ABD6</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE5CC61E-358A-955C-A5F8-AC17C8D7A60F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

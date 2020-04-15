@@ -1,0 +1,256 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E05799C-814B-5E2F-00CF-5467B5F87C5F" name="User">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:06:32 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_user" id="0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DB40987C-6D2D-80B9-5501-A4F40CF346E0">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="D3968D44-523C-DAEF-C313-8560C06ABF65">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="E89FAC1F-1F47-4BD3-D4A4-D1B0BB846814">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="CA9358C6-6137-CFC5-ADC6-6A851E27E1B6">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="3E64092C-E016-99E0-1C44-97AFC77A6E04">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="EFB49995-593F-BB24-F0B2-77035DE9E5D3">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Genero" id="2B5ECFC9-0CC2-FBEE-8F59-2A3113B80185">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_nacimiento" id="19B7D161-96FA-FA96-1FD9-28412FC0B7C5">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_registro" id="2296CD66-27CB-53C8-9FB0-328BBDBE5734">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="BAED95BB-C672-9510-9E02-7307BF7E2183">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Credito" id="234B0694-B228-1D3F-FBE3-F484D608DA93">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ganancia" id="1D4BF4BB-94EF-8E8A-A43A-D862EE71193A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clase" id="AE56CCDA-F458-9587-25DB-8C8215D38C6C">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_rol" id="D2E7C893-7664-2057-11E3-14E3FC9C3872">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>59237547-36C0-2B41-595C-231E659FD4C8</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4570B07C-C095-B525-0053-F7CA0A28E6FC" referredColumn="8627ED63-E367-08BE-2B6F-762F1381078D"/>
+</associations>
+</Column>
+<Column name="Id_estado" id="D05473F6-3F69-91B6-E5DF-983EDE53F9C9">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>85CE5BE3-E7DB-6EB7-3C0C-9C6B232293C5</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BED8B99D-8CF4-38D6-5AA0-6714ED806F75" referredColumn="DCD6FA10-39C5-2889-3281-8EF566C496CD"/>
+</associations>
+</Column>
+<Column name="Id_tipo" id="97FBBF24-E40A-69A8-AF54-33A2AB56FF71">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>4AAA0059-1061-2831-AF06-629E3C1A141F</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32AF04D1-0B64-172A-6BD8-D48D0D7D2063" referredColumn="2186EDD9-9F03-BD38-8AF3-61B126F1E54E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="022CDFAE-5CA4-5A14-875F-4CC793C56D43" name="User_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:16:14 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C09A4ADE-A66F-C125-7BBF-FA764DC64E35" name="User_Tipo_cliente_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>AC230B23-97D9-55D4-0075-862A7EBD28F2</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97FBBF24-E40A-69A8-AF54-33A2AB56FF71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA75D825-73FF-621F-E1E0-6FE46C301365" name="User_Rol_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>210F30A6-4B1A-E6CA-80B9-6F263B846B81</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E7C893-7664-2057-11E3-14E3FC9C3872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E25A06E8-8741-B60E-F04C-5A5A67C6AE8E" name="User_Estado_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>BAD1C326-DD36-4AF8-DAF3-A1058C467A17</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D05473F6-3F69-91B6-E5DF-983EDE53F9C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

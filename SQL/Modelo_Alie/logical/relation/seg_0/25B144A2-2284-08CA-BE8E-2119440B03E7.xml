@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Respuesta Comentario FK" directorySegmentName="seg_0" id="25B144A2-2284-08CA-BE8E-2119440B03E7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:29:01 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>671498B9-3831-0BCA-BDCC-BE0769669749</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C834C94-E46F-5CDA-7361-269A1209B64F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9D8F579-0D8D-F819-E0F1-842F37E403AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

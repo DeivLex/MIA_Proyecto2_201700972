@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B67925F7-F8AA-EB5C-F623-F90265DF898F" name="Comentario">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_comentario" id="B6A94272-C774-E740-D043-92317A741DFE">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="CE471386-A259-AB05-C5DF-461B11AB9FE9">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titulo" id="00440C0F-EEBC-1160-ECBD-9C77C73177A7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Puntuacion" id="4C47F02D-8FCD-D345-315A-C1ECAECE4270">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="F91B3D0E-BBCF-371D-F6BF-7E0B28C5BF97">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:15:00 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_user" id="2CB94EB1-4FAC-C4C9-48BB-F4E94DDA1D57">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>2A0924BD-D6EC-5F82-0CB5-31C383AB14E4</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9311D04B-7509-7BB1-9833-74E2A2926EA6" referredColumn="0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9703A351-215C-38C8-58B5-B6BAA8B0E3E7" name="Comentario_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6A94272-C774-E740-D043-92317A741DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B5769B-1661-11D6-8F59-2D7A87638B91" name="Comentario_User_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>A47FC0C2-C60B-E214-7269-836E945AFDBD</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CB94EB1-4FAC-C4C9-48BB-F4E94DDA1D57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

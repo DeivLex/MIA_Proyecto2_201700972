@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE799D61-9DE9-B5BA-1BD3-7766555A75F1" name="Tipo_cliente">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:12:23 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_tipo" id="2186EDD9-9F03-BD38-8AF3-61B126F1E54E">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:12:23 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="DEFFB476-0EB1-598D-85C9-ED72755CC3C4">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:12:23 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51905FFB-30AF-55A1-1407-093767A10F71" name="Tipo_cliente_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:12:23 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2186EDD9-9F03-BD38-8AF3-61B126F1E54E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

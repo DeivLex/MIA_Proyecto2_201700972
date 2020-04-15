@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Alie" id="4ECBA2B9-7079-A739-0694-4C4AC7EF6D80" version="3.5">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:04:15 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4ECBA2B9-7079-A739-0694-4C4AC7EF6D80</designId>
+</OSDM_Design>

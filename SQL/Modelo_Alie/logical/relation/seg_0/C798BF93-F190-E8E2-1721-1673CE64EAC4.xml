@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Producto Color FK" directorySegmentName="seg_0" id="C798BF93-F190-E8E2-1721-1673CE64EAC4">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:27:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>CD4BC446-3489-2D2A-A4DF-B95AADF60FAB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AD6FD749-967C-3F3E-081E-D9409266798A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F53B5FE7-59C5-2A9C-6DA0-B45A22070BE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

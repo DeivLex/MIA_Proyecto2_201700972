@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77553275-BC76-4B25-4E52-5793DA707D5A" name="Categoria">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:57:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_categoria" id="3F3554AF-E9ED-F68B-9D62-0AD07787EDFE">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:57:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="8543835A-014D-BCB8-C1AF-F6AFEA19224F">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:57:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="7B1C35E9-652C-7431-840B-A89DC582C32A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:57:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="6C979A89-762A-B1AA-00C3-9F145C375506">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:59:46 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="862491E7-35E2-EC85-2F98-427E1C9E1F94" name="Categoria_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:57:24 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F3554AF-E9ED-F68B-9D62-0AD07787EDFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

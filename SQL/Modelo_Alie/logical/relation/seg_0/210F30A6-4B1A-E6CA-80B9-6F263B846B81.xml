@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="User Rol FK" directorySegmentName="seg_0" id="210F30A6-4B1A-E6CA-80B9-6F263B846B81">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:27:35 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>9F83B862-2C5F-9B59-8B9D-298640E6DD4E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FAFB67C4-1E28-9F43-5ECC-FDF4AB762BB4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>399B4A83-6AEF-2E56-0FE7-A70BDC5C7862</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

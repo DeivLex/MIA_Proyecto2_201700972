@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="817A887C-CD88-7B4E-8003-0B757CC7F5A1" name="Carrito">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>FB0752BD-AEF4-88B7-3355-35E375E27743</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id carrito" id="989C75FE-7825-309C-FD3D-70CE0D03C9E7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>243FB5AC-9199-F532-4AB7-D396565A8FBF</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="2D43D959-461D-7FCB-03D0-3E9129213B57">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>C2B5A34D-9C04-60A7-3398-5C7B8C47C137</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total" id="1ABDFCA4-46F4-B06C-E4EB-8473BD8B5C2F">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>55528B40-C7F0-6438-7AD3-E8463C69499A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="79469AA6-9145-E31E-96E3-7D69E67B9247">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>6EEDCC93-E302-F229-F135-94A82F22D57E</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id user" id="0F22D4D8-8123-6C65-7F73-154BB5433B71">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:35:45 UTC</createdTime>
+<generatorID>3C3877E8-D617-4673-7236-66AB29BFFAA2</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>0B1CC954-EB80-2F73-90F2-BD8A6BB37A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B844226-C253-B0B6-79E5-C4B71F5DC949" name="Carrito_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>CA7230ED-2729-E980-415C-650337B18075</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>989C75FE-7825-309C-FD3D-70CE0D03C9E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

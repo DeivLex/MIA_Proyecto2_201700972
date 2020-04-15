@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54359526-B901-258E-D00F-BBCDF30B3F53" name="Bitacora">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>88CBE383-71BD-18B5-3425-35E1952A0354</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id bitacora" id="31A32A74-C8E3-DEC7-3F57-1174BC3D8880">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>FF804B94-BBC8-F4A0-CDA0-8A5E5D4D1983</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Accion" id="42DD2D91-2BF3-DBED-08CE-7E837BB7A849">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>60D943BB-7E69-EC33-190B-719F212ECA27</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Operador" id="F83B8FCF-9830-93E4-893A-25CC03715E21">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>A9560B35-F2B8-8B68-CDDD-BA5D059F1938</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="D6203A72-14BC-4DEF-7C54-827BB5FF564A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>B8CAC9D0-06AC-AC67-0F87-D01888514A48</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id user" id="97E6C328-5B29-245B-7535-4B0E2A667194">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:29:30 UTC</createdTime>
+<generatorID>718FA016-5A23-6024-2EA7-BB9AE07445B7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>0B1CC954-EB80-2F73-90F2-BD8A6BB37A26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE1908C9-62BC-7AC4-5FD7-0D6CCE104919" name="Bitacora_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>237B965D-6EE9-FB88-659D-249BE257CA88</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31A32A74-C8E3-DEC7-3F57-1174BC3D8880</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

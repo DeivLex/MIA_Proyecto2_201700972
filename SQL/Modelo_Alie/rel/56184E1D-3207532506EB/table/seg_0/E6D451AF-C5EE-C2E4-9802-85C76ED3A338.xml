@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D451AF-C5EE-C2E4-9802-85C76ED3A338" name="Solicitud">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:53:33 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_solicitud" id="F1F8E724-D8B1-8372-517B-F31F7B475180">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:53:34 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_solicitud" id="24F4D209-0A19-53C3-411B-EDC1260EFCD2">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:53:34 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_cliente" id="82DAB243-08F5-82ED-5DED-9EF620591A60">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:53:34 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E79DDC3-9153-931A-9FC2-02DAD405565B" name="Solicitud_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:53:34 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1F8E724-D8B1-8372-517B-F31F7B475180"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

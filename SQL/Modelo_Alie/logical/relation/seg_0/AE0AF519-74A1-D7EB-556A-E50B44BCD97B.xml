@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Producto Categoria FK" directorySegmentName="seg_0" id="AE0AF519-74A1-D7EB-556A-E50B44BCD97B">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:27:13 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>B299F618-7C1D-2E7D-5CB4-6A7292FEF87D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF7B6410-B1D3-BCDB-9CE6-A6C930A424D9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F53B5FE7-59C5-2A9C-6DA0-B45A22070BE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

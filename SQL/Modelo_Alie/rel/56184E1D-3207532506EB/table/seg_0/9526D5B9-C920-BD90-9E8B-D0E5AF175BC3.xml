@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9526D5B9-C920-BD90-9E8B-D0E5AF175BC3" name="Respuesta">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:16:37 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_respuesta" id="F744E58E-2930-4CD9-CEC0-0E866C91F672">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:16:37 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mensaje" id="909B6943-F84E-D40C-BD58-392FA7E6FB25">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:16:37 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="0CA4F117-0986-AC2D-E9E7-62379AECC23A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:16:37 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_comentario" id="8A4DA43F-A3A3-306E-1E6B-84F071E5409A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>B9BF5D1A-46DD-FD1A-379E-1BD1A2AE0BB7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90AD957A-8CCB-F590-D425-5CBB810D177C" referredColumn="B6A94272-C774-E740-D043-92317A741DFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD2A336A-E83F-B9F6-6B16-323876511045" name="Respuesta_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:16:37 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F744E58E-2930-4CD9-CEC0-0E866C91F672"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D04BA43-3810-628B-335B-516EDFD5C70A" name="Respuesta_Comentario_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>25B144A2-2284-08CA-BE8E-2119440B03E7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A4DA43F-A3A3-306E-1E6B-84F071E5409A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

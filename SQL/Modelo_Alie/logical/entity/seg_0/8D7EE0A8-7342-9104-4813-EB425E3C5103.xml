@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D7EE0A8-7342-9104-4813-EB425E3C5103" name="Carrito detalle">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:34:52 UTC</createdTime>
+<generatorID>29B709E7-39ED-7CFA-C7C2-575E10778CDC</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id detalle" id="D7FB8FEC-2BF4-F406-B6F5-763EC9390355">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:34:52 UTC</createdTime>
+<generatorID>A466B9D6-6E1B-E6A0-7753-F8AE8D8B3279</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="9E15C238-985C-3733-DB7E-1D636C165EB3">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:34:52 UTC</createdTime>
+<generatorID>781BC043-99A4-8CB5-2233-44EFBB0CA764</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id producto" id="DBB4E180-EF1A-2CB7-DFC4-3AF25FBCFFA7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:35:02 UTC</createdTime>
+<generatorID>5900B5C0-44E3-577C-117B-2EDC20B5025A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>DA754DAF-6178-C6C6-8C37-0EB58E12C6CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id carrito" id="90174D18-1994-9506-DF8A-9F4B1FC793CD">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:35:08 UTC</createdTime>
+<generatorID>5F107EEF-FDF5-7F63-B84D-D40A96106521</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>989C75FE-7825-309C-FD3D-70CE0D03C9E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB4F45E1-0D03-60C8-83C2-DBD4C99BB56C" name="Carritov1 PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:34:52 UTC</createdTime>
+<generatorID>FCA32A08-A507-0D0B-25DE-E0BDE95BB12D</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7FB8FEC-2BF4-F406-B6F5-763EC9390355</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

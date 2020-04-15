@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9D8F579-0D8D-F819-E0F1-842F37E403AE" name="Respuesta">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>9526D5B9-C920-BD90-9E8B-D0E5AF175BC3</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id respuesta" id="0ED24BE9-550D-CD51-1C1A-57411B7436DE">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>F744E58E-2930-4CD9-CEC0-0E866C91F672</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mensaje" id="4BE1F8D7-2E3B-4654-8B33-4DA6DD4B76E4">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>909B6943-F84E-D40C-BD58-392FA7E6FB25</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="A1C60687-975B-1C97-93C1-CD56446FEDCB">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>0CA4F117-0986-AC2D-E9E7-62379AECC23A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id comentario" id="B9BF5D1A-46DD-FD1A-379E-1BD1A2AE0BB7">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:29:01 UTC</createdTime>
+<generatorID>25B144A2-2284-08CA-BE8E-2119440B03E7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>D74774A5-13B8-5068-353B-60CFF27DD958</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="713FAE91-F8DA-0877-8302-B869FF679488" name="Respuesta_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:21:09 UTC</createdTime>
+<generatorID>DD2A336A-E83F-B9F6-6B16-323876511045</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0ED24BE9-550D-CD51-1C1A-57411B7436DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

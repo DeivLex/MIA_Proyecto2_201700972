@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="514E547A-33AE-7A58-D078-BEF31770DBFF" name="Chat">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_chat" id="D469B23D-F869-F2D6-3065-2ADE6728281A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Emisor" id="DBF70B66-503D-32C7-7BDE-1580B199935F">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Receptor" id="70C23A72-A714-98F6-18DA-6322FF7FB145">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="A4BC89C9-8090-FD85-906E-F3A14424FAF5">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contenido" id="DDCC28A6-051E-5E15-3416-0874D8108E11">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:56:50 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_solicitud" id="52F16832-284A-6B2E-532B-6C5E89A0A7AD">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>662DDAC2-D49C-870C-E7D1-E39B808CD7F7</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CC6B864-CFE7-CEFA-0DCF-DF602173245F" referredColumn="F1F8E724-D8B1-8372-517B-F31F7B475180"/>
+</associations>
+</Column>
+<Column name="Id_user" id="E7F45931-723C-757A-99B3-9F4B2AC1C084">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>FA27BA1D-3B28-841F-D58E-381ECE0653BB</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3958D5B3-7E33-0B6B-B347-84A6677B7349" referredColumn="0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D15A7601-6F78-5155-1F4D-07161119ABD6" name="Chat_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:55:59 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D469B23D-F869-F2D6-3065-2ADE6728281A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC33F970-E32E-5896-3385-15ACDAA653F4" name="Chat_User_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>7C797DC0-F561-713B-1DA0-2BA4BFF3743D</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F45931-723C-757A-99B3-9F4B2AC1C084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69D8666C-04F4-89EF-B57C-8A977795206C" name="Chat_Solicitud_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>58FA14F5-C318-8206-BDAC-C7D7019735BC</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52F16832-284A-6B2E-532B-6C5E89A0A7AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

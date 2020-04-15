@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="User Tipo cliente FK" directorySegmentName="seg_0" id="AC230B23-97D9-55D4-0075-862A7EBD28F2">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:28:12 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<sourcePk>BBA3D360-6932-7D8D-9746-4B639BF6F4E8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C39EBA1B-A886-2DEB-6C6F-3B2BD3AAB9C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>399B4A83-6AEF-2E56-0FE7-A70BDC5C7862</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

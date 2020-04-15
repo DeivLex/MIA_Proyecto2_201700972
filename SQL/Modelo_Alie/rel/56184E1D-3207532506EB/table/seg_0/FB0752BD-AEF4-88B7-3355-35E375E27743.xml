@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB0752BD-AEF4-88B7-3355-35E375E27743" name="Carrito">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_carrito" id="243FB5AC-9199-F532-4AB7-D396565A8FBF">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="C2B5A34D-9C04-60A7-3398-5C7B8C47C137">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total" id="55528B40-C7F0-6438-7AD3-E8463C69499A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="6EEDCC93-E302-F229-F135-94A82F22D57E">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_user" id="B0FF9487-7B0D-420C-95F6-809EC52662AD">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>0F22D4D8-8123-6C65-7F73-154BB5433B71</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AAAD960-8FBA-4905-82AF-4C706CE1FC99" referredColumn="0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA7230ED-2729-E980-415C-650337B18075" name="Carrito_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:18:05 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243FB5AC-9199-F532-4AB7-D396565A8FBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C7C8440-D80A-FF16-6287-C89E62B87B16" name="Carrito_User_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:37:29 UTC</createdTime>
+<generatorID>3C3877E8-D617-4673-7236-66AB29BFFAA2</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0FF9487-7B0D-420C-95F6-809EC52662AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

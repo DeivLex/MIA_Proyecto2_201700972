@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFEC0174-241F-2096-648F-611BEE02911B" name="Producto">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_producto" id="374495B4-B03D-F2FD-059F-2E402C4B41F0">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="72632B55-991A-C876-9EED-9B5406EF0CDC">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="C1F716D5-0CEF-BECB-6EA0-CA03684F67C4">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="993FF984-0D47-D0EE-AC6A-EF07264AF10A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="3773172F-D808-8576-5FF8-30A00C64B762">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="4DD078D8-92A7-5067-4436-20B9B7872AD1">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock" id="5871B91F-902B-653A-F656-521D7537D724">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_categoria" id="D6F4BE0F-36A2-8493-D329-1E6F9EEF79E2">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>137A33E5-C81B-AA7E-1445-E7E587E72463</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55A25ED5-7E3E-263A-3334-8541268C46B0" referredColumn="3F3554AF-E9ED-F68B-9D62-0AD07787EDFE"/>
+</associations>
+</Column>
+<Column name="Id_color" id="33626132-579C-35CB-2050-1F3CF221046C">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>7E442F5B-2787-C11F-66B0-F5B8DFBA94DA</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E0874C3-2961-A6B1-63CC-05320A73F58C" referredColumn="FADDFB91-A0A4-E878-D47D-90824AC009B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE9CC125-2654-4988-BA28-172B70AF98D8" name="Producto_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:08:04 UTC</createdTime>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="374495B4-B03D-F2FD-059F-2E402C4B41F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E3B3CFB-6683-6B45-5400-87DCFD6FEEB5" name="Producto_Categoria_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>AE0AF519-74A1-D7EB-556A-E50B44BCD97B</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6F4BE0F-36A2-8493-D329-1E6F9EEF79E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D878855-D870-50C7-717D-B85F770F6EC1" name="Producto_Color_FK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:31:20 UTC</createdTime>
+<generatorID>C798BF93-F190-E8E2-1721-1673CE64EAC4</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33626132-579C-35CB-2050-1F3CF221046C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

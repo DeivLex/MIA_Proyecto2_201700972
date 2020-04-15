@@ -1,0 +1,273 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="399B4A83-6AEF-2E56-0FE7-A70BDC5C7862" name="User">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>9E05799C-814B-5E2F-00CF-5467B5F87C5F</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id user" id="0B1CC954-EB80-2F73-90F2-BD8A6BB37A26">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>0EFADA0C-D3C5-5AC6-CFAD-3425E5353B88</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="93AE4BB4-BEA4-8174-91A8-94C679365F3D">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>DB40987C-6D2D-80B9-5501-A4F40CF346E0</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="0DA81321-A434-1313-72D6-0601EAD16925">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>D3968D44-523C-DAEF-C313-8560C06ABF65</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="C9F4C7F1-555D-5274-D751-8CDCB88A633E">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>E89FAC1F-1F47-4BD3-D4A4-D1B0BB846814</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="5C65CA42-7560-CB71-9083-D2CD52AE7EC6">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>CA9358C6-6137-CFC5-ADC6-6A851E27E1B6</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="C497F3A8-59FE-1278-DE51-13710C74B830">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>3E64092C-E016-99E0-1C44-97AFC77A6E04</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Foto" id="D28AEA78-D432-950D-885E-D4962FACADCA">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>EFB49995-593F-BB24-F0B2-77035DE9E5D3</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="DC6DF0A0-7457-51CD-825A-58CA0E20E0AE">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>2B5ECFC9-0CC2-FBEE-8F59-2A3113B80185</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha nacimiento" id="5F961D23-6439-D317-F609-982F5863DD67">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>19B7D161-96FA-FA96-1FD9-28412FC0B7C5</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha registro" id="BFE91700-C2B6-A278-6A45-04B9D066E7FC">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>2296CD66-27CB-53C8-9FB0-328BBDBE5734</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="C6493B5A-149D-DC58-CA34-CE6C79891220">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>BAED95BB-C672-9510-9E02-7307BF7E2183</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Credito" id="C6B824EA-12CA-CD8F-3B05-D64578586D3B">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>234B0694-B228-1D3F-FBE3-F484D608DA93</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ganancia" id="98643A88-E1E9-958A-29D3-390A3972516E">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>1D4BF4BB-94EF-8E8A-A43A-D862EE71193A</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clase" id="24297FCD-D968-D403-7FD6-372195EDF24A">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>AE56CCDA-F458-9587-25DB-8C8215D38C6C</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id rol" id="59237547-36C0-2B41-595C-231E659FD4C8">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:27:35 UTC</createdTime>
+<generatorID>210F30A6-4B1A-E6CA-80B9-6F263B846B81</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>EB251A05-FDDE-39D3-AECD-5C02732923B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id estado" id="85CE5BE3-E7DB-6EB7-3C0C-9C6B232293C5">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:27:42 UTC</createdTime>
+<generatorID>BAD1C326-DD36-4AF8-DAF3-A1058C467A17</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>E3F8EFE1-EFFE-8DD0-A220-3321F5746211</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id tipo" id="4AAA0059-1061-2831-AF06-629E3C1A141F">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 01:28:12 UTC</createdTime>
+<generatorID>AC230B23-97D9-55D4-0075-862A7EBD28F2</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="true"/>
+</engineerTo>
+<referedAttribute>46DBE36F-FFC1-71A5-6E7D-04F8C469FFC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A946B1F3-DCE9-62DD-54AF-0F030741DCB8" name="User_PK">
+<createdBy>davis</createdBy>
+<createdTime>2020-04-15 00:24:23 UTC</createdTime>
+<generatorID>022CDFAE-5CA4-5A14-875F-4CC793C56D43</generatorID>
+<ownerDesignName>Modelo_Alie</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="56184E1D-1D90-74B9-2B88-3207532506EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B1CC954-EB80-2F73-90F2-BD8A6BB37A26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
